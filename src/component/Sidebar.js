@@ -3,7 +3,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="text-gray-500 p-5 text-sm border-r border-gray-900">
+    <div className="text-gray-500 p-5 text-sm border-r border-gray-900 h-screen overflow-y-scroll scrollbar-hide ">
       <div className="space-y-4">
         <button className=" flex items-center space-x-2 hover:text-white">
           <HomeIcon className="h-5 w-5" />
@@ -17,7 +17,7 @@ const Sidebar = () => {
           <LibraryIcon className="h-5 w-5" />
           <p>Your Library</p>
         </button>
-        <hr className="border-t-[0.1px] border-gray-900"></hr>
+        <hr className="border-t-[0.1px] border-gray-400"></hr>
         <button className=" flex items-center space-x-2 hover:text-white">
           <PlusCircleIcon className="h-5 w-5" />
           <p>Create Playlist</p>
@@ -31,6 +31,11 @@ const Sidebar = () => {
           <p>Your episodes</p>
         </button>
         <hr className="border-t-[0.1px] border-gray-400"></hr>
+        <p className="hover:text-white cursor-pointer">Playlist more...</p>
+        <p className="hover:text-white cursor-pointer">Playlist more...</p>
+        <p className="hover:text-white cursor-pointer">Playlist more...</p>
+        <p className="hover:text-white cursor-pointer">Playlist more...</p>
+        <p className="hover:text-white cursor-pointer">Playlist more...</p>
       </div>
     </div>
   );
